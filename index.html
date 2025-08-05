@@ -1,76 +1,103 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Antonio Morandy - Blog Profesional</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; color: #333; }
-        header { text-align: center; margin-bottom: 40px; }
-        h1 { margin-bottom: 5px; }
-        h2 { color: #2c3e50; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
-        section { margin-bottom: 30px; }
-        ul { list-style-type: square; margin-left: 20px; }
-        .contact { font-size: 0.9em; color: #555; }
-        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    </style>
+    <title>Antonio Morandy - Perfil Profesional</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<div class="container">
-    <header>
-        <h1>Antonio Rafael Morandy Salas</h1>
-        <p class="contact">
-            RUT: 25.939.444-9 | San Miguel, Chile<br>
-            Cel: +56920862848 / +56963379764<br>
-            Email: antoniomorandy@gmail.com / antoniomorandy@hotmail.com
-        </p>
-    </header>
+<body class="bg-light text-dark">
 
-    <section>
-        <h2>Resumen Profesional</h2>
-        <p>Ingeniero en Informática con experiencia en análisis, desarrollo y mantenimiento de sistemas en diversas tecnologías como Visual Basic 6.0, .NET, DevExpress, SQL Server, MySQL, PHP y Laravel. Capacidad para liderar proyectos, migrar sistemas y brindar soporte técnico integral.</p>
-    </section>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Antonio Rafael Morandy Salas</h1>
+            <p class="lead">
+                RUT: 25.939.444-9 · San Miguel, Chile <br>
+                📞 +56920862848 / +56963379764 · ✉️ antoniomorandy@gmail.com / antoniomorandy@hotmail.com
+            </p>
+        </div>
 
-    <section>
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li><strong>Dimensión S.A. (2019 - Actualidad)</strong> - Analista de Sistemas</li>
-            <li><strong>Xnear S.A. (2017 - 2019)</strong> - Analista Programador</li>
-            <li><strong>Scinformatica Ltda. (2017)</strong> - Analista de Sistema</li>
-            <li><strong>Amortiguadores Monroe (2016 - 2017)</strong> - Soporte IT</li>
-            <li><strong>UBA (2013 - 2016)</strong> - Analista de Sistemas</li>
-        </ul>
-    </section>
+        <div class="row g-4">
+            <!-- Resumen Profesional -->
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Resumen Profesional</h2>
+                        <p class="card-text">
+                            Ingeniero en Informática con experiencia en análisis, desarrollo y mantenimiento de sistemas en diversas tecnologías como Visual Basic 6.0, .NET, C#, DevExpress, SQL Server, MySQL, PHP y Laravel.
+                            Capacidad para liderar proyectos, migrar sistemas y brindar soporte técnico integral.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li><strong>UPTA Maracay, Venezuela</strong> - Ingeniero en Informática (2016)</li>
-            <li><strong>I.U. Antonio Ricaurte, Venezuela</strong> - Técnico Superior en Informática (2006)</li>
-        </ul>
-    </section>
+            <!-- Experiencia Laboral -->
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Experiencia Laboral</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Dimensión S.A. (2019 - Actualidad)</strong> – Analista de Sistemas</li>
+                            <li class="list-group-item"><strong>Xnear S.A. (2017 - 2019)</strong> – Analista Programador</li>
+                            <li class="list-group-item"><strong>Scinformatica Ltda. (2017)</strong> – Analista de Sistema</li>
+                            <li class="list-group-item"><strong>Amortiguadores Monroe (2016 - 2017)</strong> – Soporte IT</li>
+                            <li class="list-group-item"><strong>UBA (2013 - 2016)</strong> – Analista de Sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <h2>Conocimientos y Certificaciones</h2>
-        <ul>
-            <li>Programación: Visual Basic, C#, PHP, Laravel</li>
-            <li>Bases de Datos: SQL Server, MySQL</li>
-            <li>Herramientas: DevExpress, Office, Autocad</li>
-            <li>Certificaciones en Profit Plus, Entity Framework, Diseño Web, C#</li>
-        </ul>
-    </section>
+            <!-- Educación -->
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Educación</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>UPTA Maracay, Venezuela</strong> – Ingeniero en Informática (2016)</li>
+                            <li class="list-group-item"><strong>I.U. Antonio Ricaurte, Venezuela</strong> – Técnico Superior en Informática (2006)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Inglés: Básico escrito</li>
-        </ul>
-    </section>
+            <!-- Conocimientos -->
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Conocimientos y Certificaciones</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Programación: Visual Basic, C#, PHP, Laravel</li>
+                            <li class="list-group-item">Bases de Datos: SQL Server, MySQL</li>
+                            <li class="list-group-item">Herramientas: DevExpress, Office, Autocad</li>
+                            <li class="list-group-item">Certificaciones en Profit Plus, Entity Framework, Diseño Web, C#</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <h2>Contacto</h2>
-        <p>Disponibilidad: Inmediata</p>
-    </section>
-</div>
+            <!-- Idiomas -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Idiomas</h2>
+                        <p>Inglés: Básico escrito</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacto -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h4 card-title text-primary border-bottom pb-2">Contacto</h2>
+                        <p>Disponibilidad: Inmediata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
